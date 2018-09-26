@@ -1,4 +1,4 @@
-package com.models;
+package com;
 
 import javax.persistence.*;
 import java.util.Objects;
