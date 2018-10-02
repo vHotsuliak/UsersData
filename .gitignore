@@ -1,7 +1,6 @@
 
 # Created by https://www.gitignore.io/api/java,linux,windows,java-web
 
-!target/Spring-boot-web-example.jar
 
 ### Java ###
 # Compiled class file
