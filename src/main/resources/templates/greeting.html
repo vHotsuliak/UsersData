@@ -5,6 +5,19 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 </head>
 <body>
+<div>
+<form action="/greeting" method="post" >
+    <h3>Add employee</h3>
+    <input type="text" name="employeeName" placeholder="Enter your name" required><br><br>
+    <input type="submit" value="Submit">
+</form>
+</div>
+<form action="/greeting" method="post" >
+    <h3>Add customer</h3>
+    <input type="text" name="employeeName" placeholder="Enter some employee name" required><br><br>
+    <input type="text" name="employeeName" placeholder="Enter your name" required><br><br>
+    <input type="submit" value="Submit">
+</form>
 <p th:text="'Hello, ' + ${name} + '!'" />
 </body>
 </html>
