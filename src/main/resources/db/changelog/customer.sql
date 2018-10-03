@@ -2,8 +2,8 @@
 
 --changeset Customer:1
 CREATE TABLE `Customer` (
-  `customerid` int(11) NOT NULL,
-  `employeeid` int(11) NOT NULL,
+  `customerid` INT NOT NULL,
+  `employeeid` INT NOT NULL,
   `name` varchar(45) DEFAULT NULL,
-  PRIMARY KEY (`customerid`, 'employeeid')
+  PRIMARY KEY (`customerid`)
 );

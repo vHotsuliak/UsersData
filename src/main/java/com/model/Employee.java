@@ -12,7 +12,7 @@ public class Employee {
 
     private String name;
 
-    @OneToMany(mappedBy = "customer")
+    @Transient
     private List<Customer> customers;
 
     public Employee() {

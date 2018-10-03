@@ -11,8 +11,7 @@ public class Customer {
 
     private String name;
 
-    @ManyToOne
-    @JoinColumn(name = "employeeid")
+    @Transient
     private Employee employee;
 
     public Customer() {
